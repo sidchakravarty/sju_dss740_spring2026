@@ -52,7 +52,7 @@ After this, the project files and folders will appear in the Project Explorer.
 
 ---
 
-**2. Pull updates weekly**
+**2. Setup local branch and push updates to GitHub**
 
 Step 1 - Open VSCode Terminal
 
@@ -89,4 +89,35 @@ It is recommended to create separate branches so your work is isolated.
 
 ![1772383956122.png](./images/1772383956122.png)
 
-Step 5 -
+Step 5 - Make changes in the branch and commit
+
+```python
+git add .
+git commit -m "<Enter a Comment to describe your work.>"
+```
+
+After commit the changes, the git flag will change from 'U' to 'A' or 'M'.
+
+A - Added for new files
+
+M - Modified for existing files
+
+![1772384430207.png](./images/1772384430207.png)
+
+Step 6 - Push changes to GitHub
+
+If pushing the changes to GitHub for the first time use the following code. In this code, we are setting the upstream (GitHub) branch for our local repository.
+
+```python
+git push -u origin feature/data_preprocessing
+```
+
+For subsequent pushes, we only need to let Git know to push the code
+
+```python
+git push
+```
+
+---
+
+**3. Get updates from GitHub**
