@@ -2,7 +2,7 @@
 
 ## Spring 2026: GitHub Instructions
 
-**Repository Instructions**
+### Repository Instructions
 
 This repository is the official distribution source for course materials. You will:
 
@@ -18,19 +18,17 @@ When working on course project, you will:
 3. Work on your respective branches and push changes to GitHub
 4. Pull updates frequently to ensure everyone is working on the most updated codebase
 
----
-
-**1. Clone the Repository**
+#### 1. Clone the Repository
 
 Open Visual Studio
 
 ![1772114890801.png](./images/1772114890801.png)
 
-Click on <code>Clone Git Repository</code>
+Click on Clone Git Repository
 
 ![1772114990767.png](./images/1772114990767.png)
 
-Paste the [Git Repository URL](https://github.com/sidchakravarty/sju_dss740_spring2026.git) for this course
+Paste the [Git Repository URL](https://github.com/sidchakravarty/sju_dss740_spring2026.git) for this course.
 
 ![1772115080495.png](./images/1772115080495.png)
 
@@ -52,17 +50,19 @@ After this, the project files and folders will appear in the Project Explorer.
 
 ---
 
-**2. Setup local branch and push updates to GitHub**
+#### 2. Setup local branch and push updates to GitHub
 
-Step 1 - Open VSCode Terminal
+##### Step 1 - Open VSCode Terminal
 
 ![1772116652185.png](./images/1772116652185.png)
 
-Step 2 - Select Command Prompt from the drop down.
+Select Command Prompt from the drop down.
 
 ![1772116934921.png](./images/1772116934921.png)
 
-Step 3 - Let's see the status of git and the branch we are on. We can see that we are in the branch and a lot of files are currently untracked.
+##### Step 2 - Check Git Status
+
+Let's see the status of git and the branch we are on. We can see that we are in the branch and a lot of files are currently untracked.
 
 ```python
 git init
@@ -71,11 +71,11 @@ git status
 
 ![1772381327987.png](./images/1772381327987.png)
 
-We can see ⬇️: the active branch in a couple of other places in VSCode, starting with the status bar.
+We can see ⬇️ the active branch in a couple of other places in VSCode, starting with the status bar.
 
 ![1772383531678.png](./images/1772383531678.png)
 
-Step 4 - Create a new local branch
+##### Step 3 - Create a new local branch
 
 ```python
 git checkout -b feature/data_preprocessing
@@ -89,7 +89,7 @@ It is recommended to create separate branches so your work is isolated.
 
 ![1772383956122.png](./images/1772383956122.png)
 
-Step 5 - Make changes in the branch and commit
+##### Step 4 - Make changes in the branch and commit
 
 ```python
 git add .
@@ -98,13 +98,13 @@ git commit -m "<Enter a Comment to describe your work.>"
 
 After commit the changes, the git flag will change from 'U' to 'A' or 'M'.
 
-A - Added for new files
+A - Added for new files.
 
-M - Modified for existing files
+M - Modified for existing files.
 
 ![1772384430207.png](./images/1772384430207.png)
 
-Step 6 - Push changes to GitHub
+##### Step 5 - Push changes to GitHub
 
 If pushing the changes to GitHub for the first time use the following code. In this code, we are setting the upstream (GitHub) branch for our local repository.
 
@@ -112,7 +112,7 @@ If pushing the changes to GitHub for the first time use the following code. In t
 git push -u origin feature/data_preprocessing
 ```
 
-For subsequent pushes, we only need to let Git know to push the code
+For subsequent pushes, we only need to let Git know to push the code.
 
 ```python
 git push
@@ -120,4 +120,4 @@ git push
 
 ---
 
-**3. Get updates from GitHub**
+#### 3. Get updates from GitHub
