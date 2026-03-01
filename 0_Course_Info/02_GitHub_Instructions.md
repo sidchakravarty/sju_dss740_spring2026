@@ -77,6 +77,8 @@ We can see ⬇️ the active branch in a couple of other places in VSCode, start
 
 ##### Step 3 - Create a new local branch
 
+In the code below, the flag **'-b'** creates a new branch.
+
 ```python
 git checkout -b feature/data_preprocessing
 ```
@@ -112,6 +114,12 @@ If pushing the changes to GitHub for the first time use the following code. In t
 git push -u origin feature/data_preprocessing
 ```
 
+or use the following command. HEAD means "current branch".
+
+```python
+git push -u origin HEAD
+```
+
 For subsequent pushes, we only need to let Git know to push the code.
 
 ```python
@@ -121,3 +129,20 @@ git push
 ---
 
 #### 3. Get updates from GitHub
+
+##### Step 1 - Git Pull
+
+To pull latest updates from GitHub, after switching to the main branch.
+
+```python
+git checkout main
+git pull
+```
+
+##### Step 2 - Git Merge
+
+This step is used to bring the local branch at the same stage as the main branch
+
+```python
+git merge feature/data_preprocessing
+```

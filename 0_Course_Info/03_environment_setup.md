@@ -64,8 +64,6 @@ If uv is not accessible, then the scripts folder needs to be added to PATH. Repl
 
 ![1772118531559.png](./images/1772118531559.png)
 
-
-
 1️⃣Windows (Command Prompt)
 
 If you see (base) in your terminal, run
