@@ -2,4 +2,4 @@
 
 ## Spring 2026: Course Schedule and Progress
 
- ![1772392935553.png](./1772392935553.png)
+![1772392935553.png](./images/1772392935553.png)
